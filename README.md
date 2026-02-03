@@ -19,7 +19,7 @@ sudo pacman -S openssl
 ## Building
 
 ```bash
-gcc -o dedup dedup.c -lcrypto
+gcc -o deldup main.c -lcrypto
 ```
 
 ### TO-DO
